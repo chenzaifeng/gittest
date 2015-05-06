@@ -13,9 +13,10 @@ public class MainActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		Toast.makeText(this,"this is T  sdoast   ",Toast.LENGTH_SHORT).show();
 
-		
+		Toast.makeText(this,"this is Toast",Toast.LENGTH_SHORT).show();
+
+
 	}
 
 
